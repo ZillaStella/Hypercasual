@@ -10,6 +10,8 @@ public class SwiptVer : MonoBehaviour
     private int swipeDistance = 20;
     public GameObject player;
 
+    private bool isFingerDown; 
+
 
     // Start is called before the first frame update
     void Start()
@@ -20,7 +22,7 @@ public class SwiptVer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isFingerDown && Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
+            if (!isFingerDown && Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
             {
                 startPos = Input.touches[0].position;
                 isFingerDown = true;
