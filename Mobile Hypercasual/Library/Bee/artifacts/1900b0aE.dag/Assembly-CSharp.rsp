@@ -368,11 +368,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/MoveObject.cs"
-"Assets/PlayerMovement.cs"
-"Assets/SpawnManager.cs"
+"Assets/Scrips/MoveObject.cs"
+"Assets/Scrips/PlayerMovement.cs"
+"Assets/Scrips/SpawnManager.cs"
+"Assets/Scrips/SwiptVer.cs"
 "Assets/Swipe.cs"
-"Assets/SwiptVer.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 

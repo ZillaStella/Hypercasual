@@ -1,0 +1,341 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.24f1 (709dddfb713f) revision 7380445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32452 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/pinkt/Documents/GitHub/Hypercasual/Mobile Hypercasual
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50536
+Successfully changed project path to: C:/Users/pinkt/Documents/GitHub/Hypercasual/Mobile Hypercasual
+C:/Users/pinkt/Documents/GitHub/Hypercasual/Mobile Hypercasual
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 144.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.24f1 (709dddfb713f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pinkt/Documents/GitHub/Hypercasual/Mobile Hypercasual/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Ti Laptop GPU (ID=0x24e0)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017856 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 86.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+				TypeCache.Initialize (139ms)
+					TypeCache.ScanAssembly (138ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (107ms)
+				SetLoadedEditorAssemblies (11ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (129ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010168 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pinkt\Documents\GitHub\Hypercasual\Mobile Hypercasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pinkt\Documents\GitHub\Hypercasual\Mobile Hypercasual\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.489 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1490ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (152ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+				TypeCache.Initialize (279ms)
+					TypeCache.ScanAssembly (273ms)
+				ResolveRequiredComponents (7ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (21ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (58.3 KB). Loaded Objects now: 3939.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 3.786300 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.109300 ms MarkObjects: 3.325700 ms  DeleteObjects: 0.087500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91578.299764 seconds.
+  path: Assets/Buildings/house_2_v_2.fbx
+  artifactKey: Guid(e7ba6850887ae694a970af5f171fa6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_2.fbx using Guid(e7ba6850887ae694a970af5f171fa6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932db80e8a9baeec75a402c57d48d7a9') in 0.234761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.438887 seconds.
+  path: Assets/Buildings/house_2_v_6.fbx
+  artifactKey: Guid(c506096798388f045a996b9f6841df1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_6.fbx using Guid(c506096798388f045a996b9f6841df1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495da737ffad9e4001e2d266df751d8b') in 0.072881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.535417 seconds.
+  path: Assets/Buildings/house_2_v_10.fbx
+  artifactKey: Guid(4ec9feb01e8bebf4ba09ec34cc9c944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_10.fbx using Guid(4ec9feb01e8bebf4ba09ec34cc9c944c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aaeab95a02eb338722f68c3c8ebc4f9') in 0.051341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.114271 seconds.
+  path: Assets/Buildings/house_2_v_12.fbx
+  artifactKey: Guid(8cc5b14060ac8164e8fb7443b7d7cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_12.fbx using Guid(8cc5b14060ac8164e8fb7443b7d7cb85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd1e45c2b0732a757280ff1fe6a340d') in 0.054666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130437 seconds.
+  path: Assets/Buildings/house_2_v_14.fbx
+  artifactKey: Guid(90b3007ed7074dd4ea1220f4352dbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_14.fbx using Guid(90b3007ed7074dd4ea1220f4352dbdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e13dc21436cc33eafca63e5f404d16') in 0.060499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.988165 seconds.
+  path: Assets/Buildings/house_2_v_16.fbx
+  artifactKey: Guid(b776eb12f66bb4842b1396a336a877a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_16.fbx using Guid(b776eb12f66bb4842b1396a336a877a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fbbce80c611a909326eac3ed79b4c0') in 0.142660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Buildings/house_2_v_25.fbx
+  artifactKey: Guid(cfe40965208e15d46a17ed01453406d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_25.fbx using Guid(cfe40965208e15d46a17ed01453406d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f835a366fc439fd1e25ac3b238abb53d') in 0.097525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006426 seconds.
+  path: Assets/Buildings/house_2_v_23.fbx
+  artifactKey: Guid(d83a08cfe7c933d4abc0f3bd024231b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_23.fbx using Guid(d83a08cfe7c933d4abc0f3bd024231b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fded4f47a711ab95438dd84f7e0b64a3') in 0.050307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.725664 seconds.
+  path: Assets/Buildings/house_2_v_26.fbx
+  artifactKey: Guid(00432b2421cc0104f97d189f80d8cbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_26.fbx using Guid(00432b2421cc0104f97d189f80d8cbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1fdcb41da732418aef47b2f46dd1d6') in 0.092954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Buildings/house_2_v_34.fbx
+  artifactKey: Guid(fc5ae33c94518d945a0d93aac2c3c0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_2_v_34.fbx using Guid(fc5ae33c94518d945a0d93aac2c3c0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15729b3f6cdf0fee175246a22f755cd0') in 0.046990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.329629 seconds.
+  path: Assets/Buildings/house_4.fbx
+  artifactKey: Guid(c32064e8d581c8b459c70b3642f0974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/house_4.fbx using Guid(c32064e8d581c8b459c70b3642f0974c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fd6f6edb6db416de399ac54e6e6ec4') in 0.102425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Buildings/movie_studio.fbx
+  artifactKey: Guid(d36b7ab8692299541b53dff859d28020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/movie_studio.fbx using Guid(d36b7ab8692299541b53dff859d28020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71d32c0ad54c0c0396ceec2abaa8ac') in 0.029598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Buildings/pharmacy.fbx
+  artifactKey: Guid(70f6cca8e7c1a6f44a2cc9dcaed98033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/pharmacy.fbx using Guid(70f6cca8e7c1a6f44a2cc9dcaed98033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f65d84957a97b16c6e37383e3de5f5') in 0.026275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.213861 seconds.
+  path: Assets/Buildings/power_plant.fbx
+  artifactKey: Guid(69405b49d7249234ab072de8bdfc9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/power_plant.fbx using Guid(69405b49d7249234ab072de8bdfc9ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f8c19c961e9649c22449eaf2b99d06') in 0.067407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Buildings/sports_equipment_factory.fbx
+  artifactKey: Guid(b35648c6a9881184a9b9965db7017feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/sports_equipment_factory.fbx using Guid(b35648c6a9881184a9b9965db7017feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c83d416b7b65a937377681f04af95dd') in 0.038908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.034513 seconds.
+  path: Assets/Buildings/tobacco_shop.fbx
+  artifactKey: Guid(18eabf3ca82ef3b43b69a08428f4efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/tobacco_shop.fbx using Guid(18eabf3ca82ef3b43b69a08428f4efe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05861a9e0cfc19227e6ed9651d2bc88f') in 0.093239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001819 seconds.
+  path: Assets/Buildings/video_games_store.fbx
+  artifactKey: Guid(3fb73df56d6b3ff4689f1de4916a818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/video_games_store.fbx using Guid(3fb73df56d6b3ff4689f1de4916a818f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be506cad71a43dd6885447a0af81a60') in 0.034557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.433309 seconds.
+  path: Assets/Buildings/Mobile
+  artifactKey: Guid(60b2aec3c05141047a0070e3a6cc6e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile using Guid(60b2aec3c05141047a0070e3a6cc6e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12e977c6e82fb98cc177b6877c31be9') in 0.007782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.239862 seconds.
+  path: Assets/Buildings/Mobile/appliances_factory_mobile.fbx
+  artifactKey: Guid(c26a65b944afdb74bac651e4d17610c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/appliances_factory_mobile.fbx using Guid(c26a65b944afdb74bac651e4d17610c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b023e748cb69809d915df233c8e114c') in 0.066915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Buildings/Mobile/chemical_laboratory_mobile.fbx
+  artifactKey: Guid(61e7af72ea3e74342b4ecd2b5b02bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/chemical_laboratory_mobile.fbx using Guid(61e7af72ea3e74342b4ecd2b5b02bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1873a9b7712652739e90822875687523') in 0.054329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Buildings/Mobile/electronics_factory_mobile.fbx
+  artifactKey: Guid(6b90f722703c9114f81b0bb5b4ba0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/electronics_factory_mobile.fbx using Guid(6b90f722703c9114f81b0bb5b4ba0868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034986ac0a3cf037fb48d271b4b2a1cc') in 0.035140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.060900 seconds.
+  path: Assets/Buildings/Mobile/guard_mobile.fbx
+  artifactKey: Guid(bfc99bbf4b91f1c49881150b23562811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/guard_mobile.fbx using Guid(bfc99bbf4b91f1c49881150b23562811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc286ebd9882ee04add943e07813f9') in 0.072266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001145 seconds.
+  path: Assets/Buildings/Mobile/house_2_v_2_mobile.fbx
+  artifactKey: Guid(cd1f73dd4a18f034caf98b6a4096a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/house_2_v_2_mobile.fbx using Guid(cd1f73dd4a18f034caf98b6a4096a443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc55775198157c0f66cad44dc551f9f') in 0.047538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.047643 seconds.
+  path: Assets/Buildings/Mobile/house_2_v_6_mobile.fbx
+  artifactKey: Guid(a07aa3def4dbbb040b4557da67c80895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/house_2_v_6_mobile.fbx using Guid(a07aa3def4dbbb040b4557da67c80895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a6e9016eaab3181040be23ab86cc5d') in 0.164879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Buildings/Mobile/house_2_v_13_mobile.fbx
+  artifactKey: Guid(fc1d2c22f56dcac4caefafe0bcab3ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/house_2_v_13_mobile.fbx using Guid(fc1d2c22f56dcac4caefafe0bcab3ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f399f1d80c495da749f537e6bfc1a06') in 0.131100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Buildings/Mobile/house_2_v_18_mobile.fbx
+  artifactKey: Guid(a9a298499ee8bb74db306546e383b614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buildings/Mobile/house_2_v_18_mobile.fbx using Guid(a9a298499ee8bb74db306546e383b614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173a6365d22b078e332066212ec8979c') in 0.110189 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
