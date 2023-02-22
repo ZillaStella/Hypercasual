@@ -10,7 +10,8 @@ public class SwiptVer : MonoBehaviour
     private int swipeDistance = 20;
     public GameObject player;
 
-    private bool isFingerDown; 
+
+    public PlayerMovement playerMovement;
 
 
     // Start is called before the first frame update
@@ -32,8 +33,7 @@ public class SwiptVer : MonoBehaviour
             {
                 if (Input.touches[0].position.y >= startPos.y + swipeDistance)
                 {
-                    isFingerDown = false;
-                    
+                    isFingerDown = false;  
                     Debug.Log("Swipe Up");
                 }
                 
@@ -43,21 +43,21 @@ public class SwiptVer : MonoBehaviour
                     Debug.Log("Swipe Down");
                 }
               
-                /*
-                if (Input.touches[0].position.x >= startPos.x + swipeDistance && player.transform.position.x )
+                
+                if (Input.touches[0].position.x >= startPos.x + swipeDistance)
                 {
                     isFingerDown = false;
-                    
+                    playerMovement.Move(Vector3.right);
                     Debug.Log("Swipe Right");
                 }
                 
-                if (Input.touches[0].position.x <= startPos.x - swipeDistance && player.transform.position.x )
+                if (Input.touches[0].position.x <= startPos.x - swipeDistance)
                 {
                     isFingerDown = false;
-                    
+                    playerMovement.Move(Vector3.left);
                     Debug.Log("Swipe Left");
                 }
-                */
+                
             }
             if (isFingerDown && Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Ended)
             {
